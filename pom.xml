@@ -11,28 +11,29 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <com.linecorp.armeria-version>0.98.1</com.linecorp.armeria-version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria</artifactId>
-      <version>0.88.0</version>
+      <version>${com.linecorp.armeria-version}</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-grpc</artifactId>
-      <version>0.88.0</version>
+      <version>${com.linecorp.armeria-version}</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-jetty</artifactId>
-      <version>0.88.0</version>
+      <version>${com.linecorp.armeria-version}</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-logback</artifactId>
-      <version>0.88.0</version>
+      <version>${com.linecorp.armeria-version}</version>
     </dependency>
     <!-- logging -->
     <dependency>
@@ -58,11 +59,11 @@
       <scope>compile</scope>
     </dependency>
     <!-- test -->
-    <dependency>
-      <groupId>com.linecorp.armeria</groupId>
-      <artifactId>armeria-testing</artifactId>
-      <version>0.88.0</version>
-    </dependency>
+    <!--    <dependency>-->
+    <!--      <groupId>com.linecorp.armeria</groupId>-->
+    <!--      <artifactId>armeria-testing</artifactId>-->
+    <!--      <version>0.88.0</version>-->
+    <!--    </dependency>-->
   </dependencies>
 
 </project>

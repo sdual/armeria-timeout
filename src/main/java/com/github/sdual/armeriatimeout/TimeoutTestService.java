@@ -16,12 +16,13 @@ public class TimeoutTestService {
   @Get("/timeout")
   public HttpResult<String> checkTimeout(ServiceRequestContext ctx, HttpParameters parameters) {
 
-    ctx.setRequestTimeoutMillis(20 * 1000);
-//
-//    try {
-//      Thread.sleep(21 * 1000);
-//    } catch (InterruptedException e) {
-//    }
+    ctx.setRequestTimeoutMillis(2 * 1000);
+//    ctx.setRequestTimeoutAfterMillis(20 * 1000);
+
+    try {
+      Thread.sleep(30 * 1000);
+    } catch (InterruptedException e) {
+    }
     System.out.println("get");
     return HttpResult.of(HttpStatus.OK, "OK");
   }
