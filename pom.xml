@@ -17,22 +17,22 @@
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria</artifactId>
-      <version>0.79.0</version>
+      <version>0.88.0</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-grpc</artifactId>
-      <version>0.79.0</version>
+      <version>0.88.0</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-jetty</artifactId>
-      <version>0.79.0</version>
+      <version>0.88.0</version>
     </dependency>
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-logback</artifactId>
-      <version>0.79.0</version>
+      <version>0.88.0</version>
     </dependency>
     <!-- logging -->
     <dependency>
@@ -61,7 +61,7 @@
     <dependency>
       <groupId>com.linecorp.armeria</groupId>
       <artifactId>armeria-testing</artifactId>
-      <version>0.79.0</version>
+      <version>0.88.0</version>
     </dependency>
   </dependencies>
 
