@@ -10,9 +10,10 @@ public class Boot {
 
     final int port = 8080;
 
-    ServerBuilder sb = new ServerBuilder() ;
+    ServerBuilder sb = Server.builder();
     sb.http(port);
 
+//    sb.requestTimeoutMillis(1000 * 2);
     sb.annotatedService(new TimeoutTestService());
 
     Server server = sb.build();

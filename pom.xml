@@ -11,30 +11,94 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <com.linecorp.armeria-version>0.98.1</com.linecorp.armeria-version>
+    <com.linecorp.armeria-version>0.98.4</com.linecorp.armeria-version>
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-core -->
     <dependency>
-      <groupId>com.linecorp.armeria</groupId>
-      <artifactId>armeria</artifactId>
-      <version>${com.linecorp.armeria-version}</version>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-core</artifactId>
+      <version>1.3.5</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
     <dependency>
-      <groupId>com.linecorp.armeria</groupId>
-      <artifactId>armeria-grpc</artifactId>
-      <version>${com.linecorp.armeria-version}</version>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.47.Final</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
     <dependency>
-      <groupId>com.linecorp.armeria</groupId>
-      <artifactId>armeria-jetty</artifactId>
-      <version>${com.linecorp.armeria-version}</version>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>28.2-jre</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jctools/jctools-core -->
     <dependency>
-      <groupId>com.linecorp.armeria</groupId>
-      <artifactId>armeria-logback</artifactId>
-      <version>${com.linecorp.armeria-version}</version>
+      <groupId>org.jctools</groupId>
+      <artifactId>jctools-core</artifactId>
+      <version>3.0.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/it.unimi.dsi/fastutil -->
+    <dependency>
+      <groupId>it.unimi.dsi</groupId>
+      <artifactId>fastutil</artifactId>
+      <version>8.3.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.9.11</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.10.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams -->
+    <dependency>
+      <groupId>org.reactivestreams</groupId>
+      <artifactId>reactive-streams</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
+    <dependency>
+      <groupId>com.github.ben-manes.caffeine</groupId>
+      <artifactId>caffeine</artifactId>
+      <version>2.8.1</version>
+    </dependency>
+
+
+
+
+
+    <!--    <dependency>-->
+<!--      <groupId>com.linecorp.armeria</groupId>-->
+<!--      <artifactId>armeria</artifactId>-->
+<!--      <version>${com.linecorp.armeria-version}</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.linecorp.armeria</groupId>-->
+<!--      <artifactId>armeria-grpc</artifactId>-->
+<!--      <version>${com.linecorp.armeria-version}</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.linecorp.armeria</groupId>-->
+<!--      <artifactId>armeria-jetty</artifactId>-->
+<!--      <version>${com.linecorp.armeria-version}</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.linecorp.armeria</groupId>-->
+<!--      <artifactId>armeria-logback</artifactId>-->
+<!--      <version>${com.linecorp.armeria-version}</version>-->
+<!--    </dependency>-->
     <!-- logging -->
     <dependency>
       <groupId>org.slf4j</groupId>
